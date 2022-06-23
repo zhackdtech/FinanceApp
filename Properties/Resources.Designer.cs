@@ -63,6 +63,16 @@ namespace FinanceApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap area_chart_128px {
+            get {
+                object obj = ResourceManager.GetObject("area_chart_128px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap combo_chart_20px {
             get {
                 object obj = ResourceManager.GetObject("combo_chart_20px", resourceCulture);
@@ -193,9 +203,29 @@ namespace FinanceApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap increase_128px {
+            get {
+                object obj = ResourceManager.GetObject("increase_128px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MAY_5_TRADING {
             get {
                 object obj = ResourceManager.GetObject("MAY 5 TRADING", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap neutral_trading_128px {
+            get {
+                object obj = ResourceManager.GetObject("neutral_trading_128px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

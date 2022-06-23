@@ -173,5 +173,14 @@
   <ItemGroup>
     <None Include="Resources\notification_20px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\increase_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\area_chart_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neutral_trading_128px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
