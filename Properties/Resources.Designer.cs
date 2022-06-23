@@ -253,6 +253,16 @@ namespace FinanceApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap user_shield_20px {
+            get {
+                object obj = ResourceManager.GetObject("user_shield_20px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap wallet_27px {
             get {
                 object obj = ResourceManager.GetObject("wallet_27px", resourceCulture);

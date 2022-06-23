@@ -29,31 +29,34 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.ellipseControl1 = new FinanceApp.UserInterface.Components.EllipseControl();
             this.pnlContent = new System.Windows.Forms.Panel();
-            this.ELLIPSE = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.customTextbox1 = new FinanceApp.UserInterface.CustomTextbox();
+            this.smoothButton1 = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.lblHelp = new System.Windows.Forms.Label();
+            this.lblContact = new System.Windows.Forms.Label();
+            this.lblFeedback = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.customTextbox1 = new FinanceApp.UserInterface.CustomTextbox();
+            this.ELLIPSE = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.pctDick = new System.Windows.Forms.PictureBox();
             this.btnLogOut = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnStatistics = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnComboChart = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnMessages = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnHome = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnDashboard = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.ellipseControl1 = new FinanceApp.UserInterface.Components.EllipseControl();
             this.pnlContent.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctDick)).BeginInit();
             this.SuspendLayout();
-            // 
-            // ellipseControl1
-            // 
-            this.ellipseControl1.CornerRadius = 40;
-            this.ellipseControl1.TargetControl = this;
             // 
             // pnlContent
             // 
             this.pnlContent.BackColor = System.Drawing.Color.White;
+            this.pnlContent.Controls.Add(this.smoothButton1);
+            this.pnlContent.Controls.Add(this.lblHelp);
+            this.pnlContent.Controls.Add(this.lblContact);
+            this.pnlContent.Controls.Add(this.lblFeedback);
             this.pnlContent.Controls.Add(this.pictureBox2);
             this.pnlContent.Controls.Add(this.customTextbox1);
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Right;
@@ -63,10 +66,69 @@
             this.pnlContent.Size = new System.Drawing.Size(1108, 720);
             this.pnlContent.TabIndex = 2;
             // 
-            // ELLIPSE
+            // smoothButton1
             // 
-            this.ELLIPSE.ElipseRadius = 30;
-            this.ELLIPSE.TargetControl = this.pnlContent;
+            this.smoothButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(45)))), ((int)(((byte)(166)))));
+            this.smoothButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(45)))), ((int)(((byte)(166)))));
+            this.smoothButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.smoothButton1.BorderRadius = 10;
+            this.smoothButton1.BorderSize = 0;
+            this.smoothButton1.FlatAppearance.BorderSize = 0;
+            this.smoothButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.smoothButton1.ForeColor = System.Drawing.Color.White;
+            this.smoothButton1.Image = global::FinanceApp.Properties.Resources.user_shield_20px;
+            this.smoothButton1.Location = new System.Drawing.Point(1045, 20);
+            this.smoothButton1.Name = "smoothButton1";
+            this.smoothButton1.Size = new System.Drawing.Size(42, 42);
+            this.smoothButton1.TabIndex = 5;
+            this.smoothButton1.TextColor = System.Drawing.Color.White;
+            this.smoothButton1.UseVisualStyleBackColor = false;
+            // 
+            // lblHelp
+            // 
+            this.lblHelp.AutoSize = true;
+            this.lblHelp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblHelp.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHelp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblHelp.Location = new System.Drawing.Point(881, 34);
+            this.lblHelp.Name = "lblHelp";
+            this.lblHelp.Size = new System.Drawing.Size(33, 15);
+            this.lblHelp.TabIndex = 4;
+            this.lblHelp.Text = "Help";
+            // 
+            // lblContact
+            // 
+            this.lblContact.AutoSize = true;
+            this.lblContact.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblContact.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContact.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblContact.Location = new System.Drawing.Point(796, 34);
+            this.lblContact.Name = "lblContact";
+            this.lblContact.Size = new System.Drawing.Size(49, 15);
+            this.lblContact.TabIndex = 3;
+            this.lblContact.Text = "Contact";
+            // 
+            // lblFeedback
+            // 
+            this.lblFeedback.AutoSize = true;
+            this.lblFeedback.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblFeedback.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFeedback.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.lblFeedback.Location = new System.Drawing.Point(699, 34);
+            this.lblFeedback.Name = "lblFeedback";
+            this.lblFeedback.Size = new System.Drawing.Size(61, 15);
+            this.lblFeedback.TabIndex = 2;
+            this.lblFeedback.Text = "Feedback";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.pictureBox2.Image = global::FinanceApp.Properties.Resources.search_20px;
+            this.pictureBox2.Location = new System.Drawing.Point(42, 31);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // customTextbox1
             // 
@@ -90,25 +152,20 @@
             this.customTextbox1.Texts = "Search";
             this.customTextbox1.UnderlinedStyle = false;
             // 
-            // pictureBox2
+            // ELLIPSE
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            this.pictureBox2.Image = global::FinanceApp.Properties.Resources.search_20px;
-            this.pictureBox2.Location = new System.Drawing.Point(42, 31);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.ELLIPSE.ElipseRadius = 30;
+            this.ELLIPSE.TargetControl = this.pnlContent;
             // 
-            // pictureBox1
+            // pctDick
             // 
-            this.pictureBox1.Image = global::FinanceApp.Properties.Resources.sdfghjk;
-            this.pictureBox1.Location = new System.Drawing.Point(21, 17);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pctDick.Image = global::FinanceApp.Properties.Resources.sdfghjk;
+            this.pctDick.Location = new System.Drawing.Point(21, 17);
+            this.pctDick.Name = "pctDick";
+            this.pctDick.Size = new System.Drawing.Size(48, 48);
+            this.pctDick.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctDick.TabIndex = 0;
+            this.pctDick.TabStop = false;
             // 
             // btnLogOut
             // 
@@ -218,6 +275,11 @@
             this.btnDashboard.TextColor = System.Drawing.Color.White;
             this.btnDashboard.UseVisualStyleBackColor = false;
             // 
+            // ellipseControl1
+            // 
+            this.ellipseControl1.CornerRadius = 40;
+            this.ellipseControl1.TargetControl = this;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -225,7 +287,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
             this.ClientSize = new System.Drawing.Size(1200, 720);
             this.Controls.Add(this.pnlContent);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pctDick);
             this.Controls.Add(this.btnLogOut);
             this.Controls.Add(this.btnStatistics);
             this.Controls.Add(this.btnComboChart);
@@ -237,8 +299,9 @@
             this.Text = "Form1";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
             this.pnlContent.ResumeLayout(false);
+            this.pnlContent.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctDick)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -246,7 +309,7 @@
         #endregion
         private UserInterface.Components.EllipseControl ellipseControl1;
         private UserInterface.Controls.SmoothButton btnDashboard;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pctDick;
         private UserInterface.Controls.SmoothButton btnComboChart;
         private UserInterface.Controls.SmoothButton btnMessages;
         private UserInterface.Controls.SmoothButton btnHome;
@@ -256,6 +319,10 @@
         private Bunifu.Framework.UI.BunifuElipse ELLIPSE;
         private UserInterface.CustomTextbox customTextbox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lblHelp;
+        private System.Windows.Forms.Label lblContact;
+        private System.Windows.Forms.Label lblFeedback;
+        private UserInterface.Controls.SmoothButton smoothButton1;
     }
 }
 
