@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.ellipseControl1 = new FinanceApp.UserInterface.Components.EllipseControl();
-            this.smoothPanel1 = new FinanceApp.UserInterface.Controls.SmoothPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.smoothButton6 = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.smoothButton5 = new FinanceApp.UserInterface.Controls.SmoothButton();
@@ -37,21 +37,15 @@
             this.smoothButton3 = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.smoothButton2 = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.smoothButton1 = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.pnlContent = new System.Windows.Forms.Panel();
+            this.ELLIPSE = new Bunifu.Framework.UI.BunifuElipse(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // ellipseControl1
             // 
-            this.ellipseControl1.CornerRadius = 30;
+            this.ellipseControl1.CornerRadius = 40;
             this.ellipseControl1.TargetControl = this;
-            // 
-            // smoothPanel1
-            // 
-            this.smoothPanel1.Location = new System.Drawing.Point(80, -12);
-            this.smoothPanel1.Name = "smoothPanel1";
-            this.smoothPanel1.SetFillColor = System.Drawing.Color.White;
-            this.smoothPanel1.Size = new System.Drawing.Size(1151, 781);
-            this.smoothPanel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -171,12 +165,27 @@
             this.smoothButton1.TextColor = System.Drawing.Color.White;
             this.smoothButton1.UseVisualStyleBackColor = false;
             // 
+            // pnlContent
+            // 
+            this.pnlContent.BackColor = System.Drawing.Color.White;
+            this.pnlContent.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlContent.Location = new System.Drawing.Point(92, 0);
+            this.pnlContent.Name = "pnlContent";
+            this.pnlContent.Size = new System.Drawing.Size(1108, 720);
+            this.pnlContent.TabIndex = 2;
+            // 
+            // ELLIPSE
+            // 
+            this.ELLIPSE.ElipseRadius = 30;
+            this.ELLIPSE.TargetControl = this.pnlContent;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
             this.ClientSize = new System.Drawing.Size(1200, 720);
+            this.Controls.Add(this.pnlContent);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.smoothButton6);
             this.Controls.Add(this.smoothButton5);
@@ -184,7 +193,6 @@
             this.Controls.Add(this.smoothButton3);
             this.Controls.Add(this.smoothButton2);
             this.Controls.Add(this.smoothButton1);
-            this.Controls.Add(this.smoothPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.Text = "Form1";
@@ -196,7 +204,6 @@
 
         #endregion
         private UserInterface.Components.EllipseControl ellipseControl1;
-        private UserInterface.Controls.SmoothPanel smoothPanel1;
         private UserInterface.Controls.SmoothButton smoothButton1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private UserInterface.Controls.SmoothButton smoothButton4;
@@ -204,6 +211,8 @@
         private UserInterface.Controls.SmoothButton smoothButton2;
         private UserInterface.Controls.SmoothButton smoothButton5;
         private UserInterface.Controls.SmoothButton smoothButton6;
+        private System.Windows.Forms.Panel pnlContent;
+        private Bunifu.Framework.UI.BunifuElipse ELLIPSE;
     }
 }
 

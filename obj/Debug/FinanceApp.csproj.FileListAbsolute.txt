@@ -9,3 +9,7 @@ D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.csproj.CoreCompileInputs.cache
 D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.exe
 D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.pdb
 D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.Main.resources
+D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.UserInterface.CustomTextbox.resources
+D:\FinanceApp\FinanceApp\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\FinanceApp\FinanceApp\bin\Debug\Bunifu_UI_v1.5.3.xml
+D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.csproj.CopyComplete
