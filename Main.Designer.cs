@@ -94,10 +94,10 @@
             // 
             // smoothPanel4
             // 
-            this.smoothPanel4.Location = new System.Drawing.Point(39, 326);
+            this.smoothPanel4.Location = new System.Drawing.Point(42, 232);
             this.smoothPanel4.Name = "smoothPanel4";
             this.smoothPanel4.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            this.smoothPanel4.Size = new System.Drawing.Size(697, 321);
+            this.smoothPanel4.Size = new System.Drawing.Size(694, 321);
             this.smoothPanel4.TabIndex = 7;
             // 
             // smoothPanel3
@@ -108,7 +108,7 @@
             this.smoothPanel3.Location = new System.Drawing.Point(762, 94);
             this.smoothPanel3.Name = "smoothPanel3";
             this.smoothPanel3.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(39)))), ((int)(((byte)(45)))));
-            this.smoothPanel3.Size = new System.Drawing.Size(334, 257);
+            this.smoothPanel3.Size = new System.Drawing.Size(334, 159);
             this.smoothPanel3.TabIndex = 7;
             // 
             // lblHelp
@@ -177,7 +177,7 @@
             this.smoothPanel1.Location = new System.Drawing.Point(42, 94);
             this.smoothPanel1.Name = "smoothPanel1";
             this.smoothPanel1.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            this.smoothPanel1.Size = new System.Drawing.Size(334, 257);
+            this.smoothPanel1.Size = new System.Drawing.Size(334, 159);
             this.smoothPanel1.TabIndex = 7;
             // 
             // label2
@@ -186,7 +186,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
             this.label2.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.label2.Location = new System.Drawing.Point(108, 104);
+            this.label2.Location = new System.Drawing.Point(106, 56);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(163, 27);
             this.label2.TabIndex = 0;
@@ -198,7 +198,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("Sofia Pro", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.label1.Location = new System.Drawing.Point(110, 88);
+            this.label1.Location = new System.Drawing.Point(108, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 16);
             this.label1.TabIndex = 0;
@@ -212,7 +212,7 @@
             this.smoothPanel2.Location = new System.Drawing.Point(402, 94);
             this.smoothPanel2.Name = "smoothPanel2";
             this.smoothPanel2.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            this.smoothPanel2.Size = new System.Drawing.Size(334, 257);
+            this.smoothPanel2.Size = new System.Drawing.Size(334, 159);
             this.smoothPanel2.TabIndex = 7;
             // 
             // label4
@@ -221,7 +221,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
             this.label4.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.label4.Location = new System.Drawing.Point(106, 113);
+            this.label4.Location = new System.Drawing.Point(124, 56);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(128, 27);
             this.label4.TabIndex = 0;
@@ -233,7 +233,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
             this.label3.Font = new System.Drawing.Font("Sofia Pro", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.label3.Location = new System.Drawing.Point(108, 97);
+            this.label3.Location = new System.Drawing.Point(126, 40);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 16);
             this.label3.TabIndex = 0;
@@ -255,7 +255,7 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(39)))), ((int)(((byte)(45)))));
             this.label5.Font = new System.Drawing.Font("Sofia Pro", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.label5.Location = new System.Drawing.Point(140, 97);
+            this.label5.Location = new System.Drawing.Point(138, 40);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 16);
             this.label5.TabIndex = 0;
@@ -267,7 +267,7 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(39)))), ((int)(((byte)(45)))));
             this.label6.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(138, 113);
+            this.label6.Location = new System.Drawing.Point(136, 56);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(114, 27);
             this.label6.TabIndex = 0;
@@ -277,7 +277,7 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(39)))), ((int)(((byte)(45)))));
             this.pictureBox4.Image = global::FinanceApp.Properties.Resources.neutral_trading_128px;
-            this.pictureBox4.Location = new System.Drawing.Point(68, 85);
+            this.pictureBox4.Location = new System.Drawing.Point(66, 28);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(64, 64);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -329,7 +329,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
             this.pictureBox1.Image = global::FinanceApp.Properties.Resources.increase_128px;
-            this.pictureBox1.Location = new System.Drawing.Point(38, 76);
+            this.pictureBox1.Location = new System.Drawing.Point(36, 28);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(64, 64);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -340,7 +340,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
             this.pictureBox3.Image = global::FinanceApp.Properties.Resources.area_chart_128px;
-            this.pictureBox3.Location = new System.Drawing.Point(36, 85);
+            this.pictureBox3.Location = new System.Drawing.Point(54, 28);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(64, 64);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
