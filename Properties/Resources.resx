@@ -142,14 +142,14 @@
   <data name="sdfghjk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sdfghjk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="combo_chart_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\combo_chart_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dick_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dick_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dashboard_layout_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dashboard_layout_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="statistics_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\statistics_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dashboard_layout_20px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dashboard_layout_20px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,13 +166,16 @@
   <data name="home_42px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home_42px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="combo_chart_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\combo_chart_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="statistics_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\statistics_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="new_message_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\new_message_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="home_20px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home_20px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

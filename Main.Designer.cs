@@ -32,6 +32,8 @@
             this.ellipseControl1 = new FinanceApp.UserInterface.Components.EllipseControl();
             this.pnlContent = new System.Windows.Forms.Panel();
             this.ELLIPSE = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.customTextbox1 = new FinanceApp.UserInterface.CustomTextbox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnLogOut = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnStatistics = new FinanceApp.UserInterface.Controls.SmoothButton();
@@ -39,6 +41,8 @@
             this.btnMessages = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnHome = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnDashboard = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.pnlContent.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +54,10 @@
             // pnlContent
             // 
             this.pnlContent.BackColor = System.Drawing.Color.White;
+            this.pnlContent.Controls.Add(this.pictureBox2);
+            this.pnlContent.Controls.Add(this.customTextbox1);
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlContent.Font = new System.Drawing.Font("MT Extra", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.pnlContent.Location = new System.Drawing.Point(92, 0);
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.Size = new System.Drawing.Size(1108, 720);
@@ -60,6 +67,38 @@
             // 
             this.ELLIPSE.ElipseRadius = 30;
             this.ELLIPSE.TargetControl = this.pnlContent;
+            // 
+            // customTextbox1
+            // 
+            this.customTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.customTextbox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.customTextbox1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(45)))), ((int)(((byte)(166)))));
+            this.customTextbox1.BorderRadius = 15;
+            this.customTextbox1.BorderSize = 2;
+            this.customTextbox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customTextbox1.ForeColor = System.Drawing.Color.Silver;
+            this.customTextbox1.Location = new System.Drawing.Point(32, 22);
+            this.customTextbox1.Margin = new System.Windows.Forms.Padding(4);
+            this.customTextbox1.Multiline = false;
+            this.customTextbox1.Name = "customTextbox1";
+            this.customTextbox1.Padding = new System.Windows.Forms.Padding(40, 10, 13, 10);
+            this.customTextbox1.PasswordChar = false;
+            this.customTextbox1.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.customTextbox1.PlaceholderText = "";
+            this.customTextbox1.Size = new System.Drawing.Size(639, 38);
+            this.customTextbox1.TabIndex = 0;
+            this.customTextbox1.Texts = "Search";
+            this.customTextbox1.UnderlinedStyle = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.pictureBox2.Image = global::FinanceApp.Properties.Resources.search_20px;
+            this.pictureBox2.Location = new System.Drawing.Point(42, 31);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -197,6 +236,8 @@
             this.Name = "Main";
             this.Text = "Form1";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
+            this.pnlContent.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -213,6 +254,8 @@
         private UserInterface.Controls.SmoothButton btnLogOut;
         private System.Windows.Forms.Panel pnlContent;
         private Bunifu.Framework.UI.BunifuElipse ELLIPSE;
+        private UserInterface.CustomTextbox customTextbox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
