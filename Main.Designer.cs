@@ -59,7 +59,10 @@
             this.btnMessages = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnHome = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnDashboard = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
+            this.smoothPanel5 = new FinanceApp.UserInterface.Controls.SmoothPanel();
             this.pnlContent.SuspendLayout();
+            this.smoothPanel4.SuspendLayout();
             this.smoothPanel3.SuspendLayout();
             this.smoothPanel1.SuspendLayout();
             this.smoothPanel2.SuspendLayout();
@@ -74,6 +77,7 @@
             // pnlContent
             // 
             this.pnlContent.BackColor = System.Drawing.Color.White;
+            this.pnlContent.Controls.Add(this.smoothPanel5);
             this.pnlContent.Controls.Add(this.smoothPanel4);
             this.pnlContent.Controls.Add(this.smoothPanel3);
             this.pnlContent.Controls.Add(this.bunifuImageButton1);
@@ -94,6 +98,7 @@
             // 
             // smoothPanel4
             // 
+            this.smoothPanel4.Controls.Add(this.cartesianChart1);
             this.smoothPanel4.Location = new System.Drawing.Point(42, 232);
             this.smoothPanel4.Name = "smoothPanel4";
             this.smoothPanel4.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
@@ -465,6 +470,24 @@
             this.btnDashboard.TextColor = System.Drawing.Color.White;
             this.btnDashboard.UseVisualStyleBackColor = false;
             // 
+            // cartesianChart1
+            // 
+            this.cartesianChart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.cartesianChart1.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cartesianChart1.Location = new System.Drawing.Point(21, 74);
+            this.cartesianChart1.Name = "cartesianChart1";
+            this.cartesianChart1.Size = new System.Drawing.Size(642, 190);
+            this.cartesianChart1.TabIndex = 0;
+            this.cartesianChart1.Text = "cartesianChart1";
+            // 
+            // smoothPanel5
+            // 
+            this.smoothPanel5.Location = new System.Drawing.Point(762, 232);
+            this.smoothPanel5.Name = "smoothPanel5";
+            this.smoothPanel5.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.smoothPanel5.Size = new System.Drawing.Size(334, 526);
+            this.smoothPanel5.TabIndex = 8;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -485,6 +508,7 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
             this.pnlContent.ResumeLayout(false);
             this.pnlContent.PerformLayout();
+            this.smoothPanel4.ResumeLayout(false);
             this.smoothPanel3.ResumeLayout(false);
             this.smoothPanel3.PerformLayout();
             this.smoothPanel1.ResumeLayout(false);
@@ -532,6 +556,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label5;
+        private LiveCharts.WinForms.CartesianChart cartesianChart1;
+        private UserInterface.Controls.SmoothPanel smoothPanel5;
     }
 }
 

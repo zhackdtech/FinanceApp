@@ -13,3 +13,12 @@ D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.UserInterface.CustomTextbox.resour
 D:\FinanceApp\FinanceApp\bin\Debug\Bunifu_UI_v1.5.3.dll
 D:\FinanceApp\FinanceApp\bin\Debug\Bunifu_UI_v1.5.3.xml
 D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.csproj.CopyComplete
+D:\FinanceApp\FinanceApp\bin\Debug\LiveCharts.dll
+D:\FinanceApp\FinanceApp\bin\Debug\LiveCharts.WinForms.dll
+D:\FinanceApp\FinanceApp\bin\Debug\LiveCharts.Wpf.dll
+D:\FinanceApp\FinanceApp\bin\Debug\LiveCharts.pdb
+D:\FinanceApp\FinanceApp\bin\Debug\LiveCharts.xml
+D:\FinanceApp\FinanceApp\bin\Debug\LiveCharts.WinForms.pdb
+D:\FinanceApp\FinanceApp\bin\Debug\LiveCharts.WinForms.xml
+D:\FinanceApp\FinanceApp\bin\Debug\LiveCharts.Wpf.pdb
+D:\FinanceApp\FinanceApp\bin\Debug\LiveCharts.Wpf.xml
