@@ -131,5 +131,23 @@
   <ItemGroup>
     <None Include="Resources\sdfghjk.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard_layout_27px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard_layout_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_message_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combo_chart_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imac_exit_20px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
