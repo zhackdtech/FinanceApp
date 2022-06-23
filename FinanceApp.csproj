@@ -107,7 +107,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\dashboard_layout_20px1.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\MAY 5 TRADING.png" />
   </ItemGroup>
@@ -158,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\imac_exit_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_20px1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

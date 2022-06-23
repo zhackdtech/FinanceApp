@@ -30,15 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             this.ellipseControl1 = new FinanceApp.UserInterface.Components.EllipseControl();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.smoothButton6 = new FinanceApp.UserInterface.Controls.SmoothButton();
-            this.smoothButton5 = new FinanceApp.UserInterface.Controls.SmoothButton();
-            this.smoothButton4 = new FinanceApp.UserInterface.Controls.SmoothButton();
-            this.smoothButton3 = new FinanceApp.UserInterface.Controls.SmoothButton();
-            this.btnDashboard = new FinanceApp.UserInterface.Controls.SmoothButton();
-            this.btnHome = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.pnlContent = new System.Windows.Forms.Panel();
             this.ELLIPSE = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnLogOut = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.btnStatistics = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.btnComboChart = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.btnMessages = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.btnHome = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.btnDashboard = new FinanceApp.UserInterface.Controls.SmoothButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,124 +46,6 @@
             // 
             this.ellipseControl1.CornerRadius = 40;
             this.ellipseControl1.TargetControl = this;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::FinanceApp.Properties.Resources.sdfghjk;
-            this.pictureBox1.Location = new System.Drawing.Point(21, 17);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // smoothButton6
-            // 
-            this.smoothButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.smoothButton6.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.smoothButton6.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.smoothButton6.BorderRadius = 10;
-            this.smoothButton6.BorderSize = 0;
-            this.smoothButton6.FlatAppearance.BorderSize = 0;
-            this.smoothButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.smoothButton6.ForeColor = System.Drawing.Color.White;
-            this.smoothButton6.Image = global::FinanceApp.Properties.Resources.imac_exit_20px;
-            this.smoothButton6.Location = new System.Drawing.Point(24, 666);
-            this.smoothButton6.Name = "smoothButton6";
-            this.smoothButton6.Size = new System.Drawing.Size(42, 42);
-            this.smoothButton6.TabIndex = 1;
-            this.smoothButton6.TextColor = System.Drawing.Color.White;
-            this.smoothButton6.UseVisualStyleBackColor = false;
-            // 
-            // smoothButton5
-            // 
-            this.smoothButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.smoothButton5.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.smoothButton5.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.smoothButton5.BorderRadius = 10;
-            this.smoothButton5.BorderSize = 0;
-            this.smoothButton5.FlatAppearance.BorderSize = 0;
-            this.smoothButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.smoothButton5.ForeColor = System.Drawing.Color.White;
-            this.smoothButton5.Image = global::FinanceApp.Properties.Resources.statistics_20px;
-            this.smoothButton5.Location = new System.Drawing.Point(24, 511);
-            this.smoothButton5.Name = "smoothButton5";
-            this.smoothButton5.Size = new System.Drawing.Size(42, 42);
-            this.smoothButton5.TabIndex = 1;
-            this.smoothButton5.TextColor = System.Drawing.Color.White;
-            this.smoothButton5.UseVisualStyleBackColor = false;
-            // 
-            // smoothButton4
-            // 
-            this.smoothButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.smoothButton4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.smoothButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.smoothButton4.BorderRadius = 10;
-            this.smoothButton4.BorderSize = 0;
-            this.smoothButton4.FlatAppearance.BorderSize = 0;
-            this.smoothButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.smoothButton4.ForeColor = System.Drawing.Color.White;
-            this.smoothButton4.Image = global::FinanceApp.Properties.Resources.combo_chart_20px;
-            this.smoothButton4.Location = new System.Drawing.Point(24, 436);
-            this.smoothButton4.Name = "smoothButton4";
-            this.smoothButton4.Size = new System.Drawing.Size(42, 42);
-            this.smoothButton4.TabIndex = 1;
-            this.smoothButton4.TextColor = System.Drawing.Color.White;
-            this.smoothButton4.UseVisualStyleBackColor = false;
-            // 
-            // smoothButton3
-            // 
-            this.smoothButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.smoothButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.smoothButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.smoothButton3.BorderRadius = 10;
-            this.smoothButton3.BorderSize = 0;
-            this.smoothButton3.FlatAppearance.BorderSize = 0;
-            this.smoothButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.smoothButton3.ForeColor = System.Drawing.Color.White;
-            this.smoothButton3.Image = global::FinanceApp.Properties.Resources.new_message_20px;
-            this.smoothButton3.Location = new System.Drawing.Point(24, 361);
-            this.smoothButton3.Name = "smoothButton3";
-            this.smoothButton3.Size = new System.Drawing.Size(42, 42);
-            this.smoothButton3.TabIndex = 1;
-            this.smoothButton3.TextColor = System.Drawing.Color.White;
-            this.smoothButton3.UseVisualStyleBackColor = false;
-            // 
-            // btnDashboard
-            // 
-            this.btnDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.btnDashboard.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.btnDashboard.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnDashboard.BorderRadius = 10;
-            this.btnDashboard.BorderSize = 0;
-            this.btnDashboard.FlatAppearance.BorderSize = 0;
-            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDashboard.ForeColor = System.Drawing.Color.White;
-            this.btnDashboard.Image = global::FinanceApp.Properties.Resources.home_20px1;
-            this.btnDashboard.Location = new System.Drawing.Point(24, 286);
-            this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.Size = new System.Drawing.Size(42, 42);
-            this.btnDashboard.TabIndex = 1;
-            this.btnDashboard.TextColor = System.Drawing.Color.White;
-            this.btnDashboard.UseVisualStyleBackColor = false;
-            // 
-            // btnHome
-            // 
-            this.btnHome.BackColor = System.Drawing.Color.White;
-            this.btnHome.BackgroundColor = System.Drawing.Color.White;
-            this.btnHome.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnHome.BorderRadius = 10;
-            this.btnHome.BorderSize = 0;
-            this.btnHome.FlatAppearance.BorderSize = 0;
-            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.ForeColor = System.Drawing.Color.White;
-            this.btnHome.Image = global::FinanceApp.Properties.Resources.dashboard_layout_20px1;
-            this.btnHome.Location = new System.Drawing.Point(24, 211);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(42, 42);
-            this.btnHome.TabIndex = 1;
-            this.btnHome.TextColor = System.Drawing.Color.White;
-            this.btnHome.UseVisualStyleBackColor = false;
             // 
             // pnlContent
             // 
@@ -179,6 +61,124 @@
             this.ELLIPSE.ElipseRadius = 30;
             this.ELLIPSE.TargetControl = this.pnlContent;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::FinanceApp.Properties.Resources.sdfghjk;
+            this.pictureBox1.Location = new System.Drawing.Point(21, 17);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 48);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnLogOut
+            // 
+            this.btnLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnLogOut.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnLogOut.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnLogOut.BorderRadius = 10;
+            this.btnLogOut.BorderSize = 0;
+            this.btnLogOut.FlatAppearance.BorderSize = 0;
+            this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogOut.ForeColor = System.Drawing.Color.White;
+            this.btnLogOut.Image = global::FinanceApp.Properties.Resources.imac_exit_20px;
+            this.btnLogOut.Location = new System.Drawing.Point(24, 666);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Size = new System.Drawing.Size(42, 42);
+            this.btnLogOut.TabIndex = 1;
+            this.btnLogOut.TextColor = System.Drawing.Color.White;
+            this.btnLogOut.UseVisualStyleBackColor = false;
+            // 
+            // btnStatistics
+            // 
+            this.btnStatistics.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnStatistics.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnStatistics.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnStatistics.BorderRadius = 10;
+            this.btnStatistics.BorderSize = 0;
+            this.btnStatistics.FlatAppearance.BorderSize = 0;
+            this.btnStatistics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStatistics.ForeColor = System.Drawing.Color.White;
+            this.btnStatistics.Image = global::FinanceApp.Properties.Resources.statistics_20px;
+            this.btnStatistics.Location = new System.Drawing.Point(24, 511);
+            this.btnStatistics.Name = "btnStatistics";
+            this.btnStatistics.Size = new System.Drawing.Size(42, 42);
+            this.btnStatistics.TabIndex = 1;
+            this.btnStatistics.TextColor = System.Drawing.Color.White;
+            this.btnStatistics.UseVisualStyleBackColor = false;
+            // 
+            // btnComboChart
+            // 
+            this.btnComboChart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnComboChart.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnComboChart.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnComboChart.BorderRadius = 10;
+            this.btnComboChart.BorderSize = 0;
+            this.btnComboChart.FlatAppearance.BorderSize = 0;
+            this.btnComboChart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComboChart.ForeColor = System.Drawing.Color.White;
+            this.btnComboChart.Image = global::FinanceApp.Properties.Resources.combo_chart_20px;
+            this.btnComboChart.Location = new System.Drawing.Point(24, 436);
+            this.btnComboChart.Name = "btnComboChart";
+            this.btnComboChart.Size = new System.Drawing.Size(42, 42);
+            this.btnComboChart.TabIndex = 1;
+            this.btnComboChart.TextColor = System.Drawing.Color.White;
+            this.btnComboChart.UseVisualStyleBackColor = false;
+            // 
+            // btnMessages
+            // 
+            this.btnMessages.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnMessages.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnMessages.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnMessages.BorderRadius = 10;
+            this.btnMessages.BorderSize = 0;
+            this.btnMessages.FlatAppearance.BorderSize = 0;
+            this.btnMessages.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMessages.ForeColor = System.Drawing.Color.White;
+            this.btnMessages.Image = global::FinanceApp.Properties.Resources.new_message_20px;
+            this.btnMessages.Location = new System.Drawing.Point(24, 361);
+            this.btnMessages.Name = "btnMessages";
+            this.btnMessages.Size = new System.Drawing.Size(42, 42);
+            this.btnMessages.TabIndex = 1;
+            this.btnMessages.TextColor = System.Drawing.Color.White;
+            this.btnMessages.UseVisualStyleBackColor = false;
+            // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnHome.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnHome.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnHome.BorderRadius = 10;
+            this.btnHome.BorderSize = 0;
+            this.btnHome.FlatAppearance.BorderSize = 0;
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.Image = global::FinanceApp.Properties.Resources.home_20px1;
+            this.btnHome.Location = new System.Drawing.Point(24, 286);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(42, 42);
+            this.btnHome.TabIndex = 1;
+            this.btnHome.TextColor = System.Drawing.Color.White;
+            this.btnHome.UseVisualStyleBackColor = false;
+            // 
+            // btnDashboard
+            // 
+            this.btnDashboard.BackColor = System.Drawing.Color.White;
+            this.btnDashboard.BackgroundColor = System.Drawing.Color.White;
+            this.btnDashboard.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnDashboard.BorderRadius = 10;
+            this.btnDashboard.BorderSize = 0;
+            this.btnDashboard.FlatAppearance.BorderSize = 0;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.ForeColor = System.Drawing.Color.White;
+            this.btnDashboard.Image = global::FinanceApp.Properties.Resources.dashboard_layout_20px1;
+            this.btnDashboard.Location = new System.Drawing.Point(24, 211);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(42, 42);
+            this.btnDashboard.TabIndex = 1;
+            this.btnDashboard.TextColor = System.Drawing.Color.White;
+            this.btnDashboard.UseVisualStyleBackColor = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,12 +187,12 @@
             this.ClientSize = new System.Drawing.Size(1200, 720);
             this.Controls.Add(this.pnlContent);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.smoothButton6);
-            this.Controls.Add(this.smoothButton5);
-            this.Controls.Add(this.smoothButton4);
-            this.Controls.Add(this.smoothButton3);
-            this.Controls.Add(this.btnDashboard);
+            this.Controls.Add(this.btnLogOut);
+            this.Controls.Add(this.btnStatistics);
+            this.Controls.Add(this.btnComboChart);
+            this.Controls.Add(this.btnMessages);
             this.Controls.Add(this.btnHome);
+            this.Controls.Add(this.btnDashboard);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.Text = "Form1";
@@ -204,13 +204,13 @@
 
         #endregion
         private UserInterface.Components.EllipseControl ellipseControl1;
-        private UserInterface.Controls.SmoothButton btnHome;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private UserInterface.Controls.SmoothButton smoothButton4;
-        private UserInterface.Controls.SmoothButton smoothButton3;
         private UserInterface.Controls.SmoothButton btnDashboard;
-        private UserInterface.Controls.SmoothButton smoothButton5;
-        private UserInterface.Controls.SmoothButton smoothButton6;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private UserInterface.Controls.SmoothButton btnComboChart;
+        private UserInterface.Controls.SmoothButton btnMessages;
+        private UserInterface.Controls.SmoothButton btnHome;
+        private UserInterface.Controls.SmoothButton btnStatistics;
+        private UserInterface.Controls.SmoothButton btnLogOut;
         private System.Windows.Forms.Panel pnlContent;
         private Bunifu.Framework.UI.BunifuElipse ELLIPSE;
     }
