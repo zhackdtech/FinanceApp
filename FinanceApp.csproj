@@ -167,5 +167,11 @@
   <ItemGroup>
     <None Include="Resources\search_20px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_shield_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification_20px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -30,13 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pnlContent = new System.Windows.Forms.Panel();
-            this.smoothButton1 = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.lblHelp = new System.Windows.Forms.Label();
             this.lblContact = new System.Windows.Forms.Label();
             this.lblFeedback = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.customTextbox1 = new FinanceApp.UserInterface.CustomTextbox();
             this.ELLIPSE = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.customTextbox1 = new FinanceApp.UserInterface.CustomTextbox();
+            this.ellipseControl1 = new FinanceApp.UserInterface.Components.EllipseControl();
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.smoothButton1 = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pctDick = new System.Windows.Forms.PictureBox();
             this.btnLogOut = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnStatistics = new FinanceApp.UserInterface.Controls.SmoothButton();
@@ -44,8 +46,12 @@
             this.btnMessages = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnHome = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.btnDashboard = new FinanceApp.UserInterface.Controls.SmoothButton();
-            this.ellipseControl1 = new FinanceApp.UserInterface.Components.EllipseControl();
+            this.smoothPanel1 = new FinanceApp.UserInterface.Controls.SmoothPanel();
+            this.smoothPanel2 = new FinanceApp.UserInterface.Controls.SmoothPanel();
+            this.smoothPanel3 = new FinanceApp.UserInterface.Controls.SmoothPanel();
+            this.smoothPanel4 = new FinanceApp.UserInterface.Controls.SmoothPanel();
             this.pnlContent.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctDick)).BeginInit();
             this.SuspendLayout();
@@ -53,36 +59,23 @@
             // pnlContent
             // 
             this.pnlContent.BackColor = System.Drawing.Color.White;
+            this.pnlContent.Controls.Add(this.smoothPanel4);
+            this.pnlContent.Controls.Add(this.smoothPanel3);
+            this.pnlContent.Controls.Add(this.bunifuImageButton1);
             this.pnlContent.Controls.Add(this.smoothButton1);
             this.pnlContent.Controls.Add(this.lblHelp);
             this.pnlContent.Controls.Add(this.lblContact);
             this.pnlContent.Controls.Add(this.lblFeedback);
             this.pnlContent.Controls.Add(this.pictureBox2);
             this.pnlContent.Controls.Add(this.customTextbox1);
+            this.pnlContent.Controls.Add(this.smoothPanel1);
+            this.pnlContent.Controls.Add(this.smoothPanel2);
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlContent.Font = new System.Drawing.Font("MT Extra", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.pnlContent.Location = new System.Drawing.Point(92, 0);
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.Size = new System.Drawing.Size(1108, 720);
             this.pnlContent.TabIndex = 2;
-            // 
-            // smoothButton1
-            // 
-            this.smoothButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(45)))), ((int)(((byte)(166)))));
-            this.smoothButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(45)))), ((int)(((byte)(166)))));
-            this.smoothButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.smoothButton1.BorderRadius = 10;
-            this.smoothButton1.BorderSize = 0;
-            this.smoothButton1.FlatAppearance.BorderSize = 0;
-            this.smoothButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.smoothButton1.ForeColor = System.Drawing.Color.White;
-            this.smoothButton1.Image = global::FinanceApp.Properties.Resources.user_shield_20px;
-            this.smoothButton1.Location = new System.Drawing.Point(1045, 20);
-            this.smoothButton1.Name = "smoothButton1";
-            this.smoothButton1.Size = new System.Drawing.Size(42, 42);
-            this.smoothButton1.TabIndex = 5;
-            this.smoothButton1.TextColor = System.Drawing.Color.White;
-            this.smoothButton1.UseVisualStyleBackColor = false;
             // 
             // lblHelp
             // 
@@ -120,15 +113,10 @@
             this.lblFeedback.TabIndex = 2;
             this.lblFeedback.Text = "Feedback";
             // 
-            // pictureBox2
+            // ELLIPSE
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
-            this.pictureBox2.Image = global::FinanceApp.Properties.Resources.search_20px;
-            this.pictureBox2.Location = new System.Drawing.Point(42, 31);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.ELLIPSE.ElipseRadius = 30;
+            this.ELLIPSE.TargetControl = this.pnlContent;
             // 
             // customTextbox1
             // 
@@ -152,10 +140,50 @@
             this.customTextbox1.Texts = "Search";
             this.customTextbox1.UnderlinedStyle = false;
             // 
-            // ELLIPSE
+            // ellipseControl1
             // 
-            this.ELLIPSE.ElipseRadius = 30;
-            this.ELLIPSE.TargetControl = this.pnlContent;
+            this.ellipseControl1.CornerRadius = 40;
+            this.ellipseControl1.TargetControl = this;
+            // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.Image = global::FinanceApp.Properties.Resources.notification_20px;
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(1013, 31);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(20, 20);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 6;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
+            // 
+            // smoothButton1
+            // 
+            this.smoothButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(45)))), ((int)(((byte)(166)))));
+            this.smoothButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(45)))), ((int)(((byte)(166)))));
+            this.smoothButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.smoothButton1.BorderRadius = 10;
+            this.smoothButton1.BorderSize = 0;
+            this.smoothButton1.FlatAppearance.BorderSize = 0;
+            this.smoothButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.smoothButton1.ForeColor = System.Drawing.Color.White;
+            this.smoothButton1.Image = global::FinanceApp.Properties.Resources.user_shield_20px;
+            this.smoothButton1.Location = new System.Drawing.Point(1045, 20);
+            this.smoothButton1.Name = "smoothButton1";
+            this.smoothButton1.Size = new System.Drawing.Size(42, 42);
+            this.smoothButton1.TabIndex = 5;
+            this.smoothButton1.TextColor = System.Drawing.Color.White;
+            this.smoothButton1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.pictureBox2.Image = global::FinanceApp.Properties.Resources.search_20px;
+            this.pictureBox2.Location = new System.Drawing.Point(42, 31);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // pctDick
             // 
@@ -275,10 +303,37 @@
             this.btnDashboard.TextColor = System.Drawing.Color.White;
             this.btnDashboard.UseVisualStyleBackColor = false;
             // 
-            // ellipseControl1
+            // smoothPanel1
             // 
-            this.ellipseControl1.CornerRadius = 40;
-            this.ellipseControl1.TargetControl = this;
+            this.smoothPanel1.Location = new System.Drawing.Point(42, 94);
+            this.smoothPanel1.Name = "smoothPanel1";
+            this.smoothPanel1.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.smoothPanel1.Size = new System.Drawing.Size(334, 257);
+            this.smoothPanel1.TabIndex = 7;
+            // 
+            // smoothPanel2
+            // 
+            this.smoothPanel2.Location = new System.Drawing.Point(402, 94);
+            this.smoothPanel2.Name = "smoothPanel2";
+            this.smoothPanel2.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.smoothPanel2.Size = new System.Drawing.Size(334, 257);
+            this.smoothPanel2.TabIndex = 7;
+            // 
+            // smoothPanel3
+            // 
+            this.smoothPanel3.Location = new System.Drawing.Point(762, 94);
+            this.smoothPanel3.Name = "smoothPanel3";
+            this.smoothPanel3.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(39)))), ((int)(((byte)(45)))));
+            this.smoothPanel3.Size = new System.Drawing.Size(334, 257);
+            this.smoothPanel3.TabIndex = 7;
+            // 
+            // smoothPanel4
+            // 
+            this.smoothPanel4.Location = new System.Drawing.Point(39, 326);
+            this.smoothPanel4.Name = "smoothPanel4";
+            this.smoothPanel4.SetFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(248)))), ((int)(((byte)(255)))));
+            this.smoothPanel4.Size = new System.Drawing.Size(697, 321);
+            this.smoothPanel4.TabIndex = 7;
             // 
             // Main
             // 
@@ -300,6 +355,7 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
             this.pnlContent.ResumeLayout(false);
             this.pnlContent.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctDick)).EndInit();
             this.ResumeLayout(false);
@@ -323,6 +379,11 @@
         private System.Windows.Forms.Label lblContact;
         private System.Windows.Forms.Label lblFeedback;
         private UserInterface.Controls.SmoothButton smoothButton1;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
+        private UserInterface.Controls.SmoothPanel smoothPanel1;
+        private UserInterface.Controls.SmoothPanel smoothPanel3;
+        private UserInterface.Controls.SmoothPanel smoothPanel2;
+        private UserInterface.Controls.SmoothPanel smoothPanel4;
     }
 }
 
