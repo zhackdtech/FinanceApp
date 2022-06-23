@@ -1,0 +1,11 @@
+D:\FinanceApp\FinanceApp\bin\Debug\FinanceApp.exe.config
+D:\FinanceApp\FinanceApp\bin\Debug\FinanceApp.exe
+D:\FinanceApp\FinanceApp\bin\Debug\FinanceApp.pdb
+D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.csproj.AssemblyReference.cache
+D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.csproj.SuggestedBindingRedirects.cache
+D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.Properties.Resources.resources
+D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.csproj.GenerateResource.cache
+D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.csproj.CoreCompileInputs.cache
+D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.exe
+D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.pdb
+D:\FinanceApp\FinanceApp\obj\Debug\FinanceApp.Main.resources
