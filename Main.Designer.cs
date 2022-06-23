@@ -35,8 +35,8 @@
             this.smoothButton5 = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.smoothButton4 = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.smoothButton3 = new FinanceApp.UserInterface.Controls.SmoothButton();
-            this.smoothButton2 = new FinanceApp.UserInterface.Controls.SmoothButton();
-            this.smoothButton1 = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.btnDashboard = new FinanceApp.UserInterface.Controls.SmoothButton();
+            this.btnHome = new FinanceApp.UserInterface.Controls.SmoothButton();
             this.pnlContent = new System.Windows.Forms.Panel();
             this.ELLIPSE = new Bunifu.Framework.UI.BunifuElipse(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -129,41 +129,41 @@
             this.smoothButton3.TextColor = System.Drawing.Color.White;
             this.smoothButton3.UseVisualStyleBackColor = false;
             // 
-            // smoothButton2
+            // btnDashboard
             // 
-            this.smoothButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.smoothButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
-            this.smoothButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.smoothButton2.BorderRadius = 10;
-            this.smoothButton2.BorderSize = 0;
-            this.smoothButton2.FlatAppearance.BorderSize = 0;
-            this.smoothButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.smoothButton2.ForeColor = System.Drawing.Color.White;
-            this.smoothButton2.Image = global::FinanceApp.Properties.Resources.dashboard_layout_20px;
-            this.smoothButton2.Location = new System.Drawing.Point(24, 286);
-            this.smoothButton2.Name = "smoothButton2";
-            this.smoothButton2.Size = new System.Drawing.Size(42, 42);
-            this.smoothButton2.TabIndex = 1;
-            this.smoothButton2.TextColor = System.Drawing.Color.White;
-            this.smoothButton2.UseVisualStyleBackColor = false;
+            this.btnDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnDashboard.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(44)))), ((int)(((byte)(170)))));
+            this.btnDashboard.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnDashboard.BorderRadius = 10;
+            this.btnDashboard.BorderSize = 0;
+            this.btnDashboard.FlatAppearance.BorderSize = 0;
+            this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDashboard.ForeColor = System.Drawing.Color.White;
+            this.btnDashboard.Image = global::FinanceApp.Properties.Resources.home_20px1;
+            this.btnDashboard.Location = new System.Drawing.Point(24, 286);
+            this.btnDashboard.Name = "btnDashboard";
+            this.btnDashboard.Size = new System.Drawing.Size(42, 42);
+            this.btnDashboard.TabIndex = 1;
+            this.btnDashboard.TextColor = System.Drawing.Color.White;
+            this.btnDashboard.UseVisualStyleBackColor = false;
             // 
-            // smoothButton1
+            // btnHome
             // 
-            this.smoothButton1.BackColor = System.Drawing.Color.White;
-            this.smoothButton1.BackgroundColor = System.Drawing.Color.White;
-            this.smoothButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.smoothButton1.BorderRadius = 10;
-            this.smoothButton1.BorderSize = 0;
-            this.smoothButton1.FlatAppearance.BorderSize = 0;
-            this.smoothButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.smoothButton1.ForeColor = System.Drawing.Color.White;
-            this.smoothButton1.Image = global::FinanceApp.Properties.Resources.home_20px;
-            this.smoothButton1.Location = new System.Drawing.Point(24, 211);
-            this.smoothButton1.Name = "smoothButton1";
-            this.smoothButton1.Size = new System.Drawing.Size(42, 42);
-            this.smoothButton1.TabIndex = 1;
-            this.smoothButton1.TextColor = System.Drawing.Color.White;
-            this.smoothButton1.UseVisualStyleBackColor = false;
+            this.btnHome.BackColor = System.Drawing.Color.White;
+            this.btnHome.BackgroundColor = System.Drawing.Color.White;
+            this.btnHome.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnHome.BorderRadius = 10;
+            this.btnHome.BorderSize = 0;
+            this.btnHome.FlatAppearance.BorderSize = 0;
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.Image = global::FinanceApp.Properties.Resources.dashboard_layout_20px1;
+            this.btnHome.Location = new System.Drawing.Point(24, 211);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(42, 42);
+            this.btnHome.TabIndex = 1;
+            this.btnHome.TextColor = System.Drawing.Color.White;
+            this.btnHome.UseVisualStyleBackColor = false;
             // 
             // pnlContent
             // 
@@ -191,8 +191,8 @@
             this.Controls.Add(this.smoothButton5);
             this.Controls.Add(this.smoothButton4);
             this.Controls.Add(this.smoothButton3);
-            this.Controls.Add(this.smoothButton2);
-            this.Controls.Add(this.smoothButton1);
+            this.Controls.Add(this.btnDashboard);
+            this.Controls.Add(this.btnHome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.Text = "Form1";
@@ -204,11 +204,11 @@
 
         #endregion
         private UserInterface.Components.EllipseControl ellipseControl1;
-        private UserInterface.Controls.SmoothButton smoothButton1;
+        private UserInterface.Controls.SmoothButton btnHome;
         private System.Windows.Forms.PictureBox pictureBox1;
         private UserInterface.Controls.SmoothButton smoothButton4;
         private UserInterface.Controls.SmoothButton smoothButton3;
-        private UserInterface.Controls.SmoothButton smoothButton2;
+        private UserInterface.Controls.SmoothButton btnDashboard;
         private UserInterface.Controls.SmoothButton smoothButton5;
         private UserInterface.Controls.SmoothButton smoothButton6;
         private System.Windows.Forms.Panel pnlContent;

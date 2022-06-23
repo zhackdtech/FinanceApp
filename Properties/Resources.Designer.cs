@@ -83,6 +83,16 @@ namespace FinanceApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dashboard_layout_20px1 {
+            get {
+                object obj = ResourceManager.GetObject("dashboard_layout_20px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dashboard_layout_27px {
             get {
                 object obj = ResourceManager.GetObject("dashboard_layout_27px", resourceCulture);
@@ -126,6 +136,16 @@ namespace FinanceApp.Properties {
         internal static System.Drawing.Bitmap home_20px {
             get {
                 object obj = ResourceManager.GetObject("home_20px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home_20px1 {
+            get {
+                object obj = ResourceManager.GetObject("home_20px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
